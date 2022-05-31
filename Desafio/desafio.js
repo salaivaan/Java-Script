@@ -27,3 +27,19 @@ let dni=39107459;
 let nacionalidad= "argentina";
 let cedula= nombre + espacio + apellido + espacio + dni + espacio + fechaDeNacimiento + espacio + mesDeNacimiento + espacio +anioDeNacimiento + espacio + ciudadUno + espacio + nacionalidad;
 console.log(cedula)
+
+let madre = prompt("ingrese nombre madre") ;
+let padre = prompt ("ingrese nombre padre");
+let hijoUno = prompt ("ingrese nombre hijo") ;
+let hijoDos = prompt ("ingrese nombre hijo");
+let hijoTres = prompt ("ingrese nombre hijo");
+
+let familia = madre + espacio + padre + espacio + hijoUno + espacio + hijoDos + espacio +hijoTres;
+
+alert (familia);
+
+let precio = prompt("ingresar precio");
+let descuentoUno= precio - (precio*0.2);
+let descuentoDos= precio - (precio*0.30);
+console.log(descuentoUno);
+console.log(descuentoDos);
